@@ -82,6 +82,7 @@ p {
 
 .main .container {
 	margin: 80px auto;
+	padding-top: 4rem;
 }
 
 /*.main img {
@@ -139,7 +140,7 @@ p {
 }
 
 .container h2 {
-	padding: 10px 10px;
+	padding: 20px 10px;
 	border-style: solid;
 	border-color: #eaeaea;
 	border-radius: 5px;
@@ -157,16 +158,6 @@ p {
 }
 /* Contact */
 
-.jumbotron {
-	background: url(http://goo.gl/t6Rfrg) no-repeat center center;
-	background-size: cover;
-	height: 600px;
-}
-
-.jumbotron .container {
-	position: relative;
-	top: 220px;
- }
 
 .container {
 	margin: 30px auto;
@@ -174,23 +165,50 @@ p {
 	padding: 0 auto;
 }
 
-.jumbotron h2 {
-	color: #000000;
-	text-align: right;
-	margin-left: 45%;
-	font-weight: bold;
+.glyphicon {
+	font-size: 5.1em
 }
 
-.container .btn-contact {
-	color: #ffffff;
-	padding: auto;
-	text-decoration: none;
-	font-size: 25px;
+
+#contact .col-md-4 {
+	text-align: center;
+	padding-bottom: 5rem;
+}
+
+#contact .col-md-12 h2 {
 	text-transform: uppercase;
-	margin: auto;
+	text-align: center;
+	padding-bottom: 3rem;
+}
+
+#contact .col-md-12 p {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	padding-bottom: 2rem; 
+	color: #ff6666;
+}
+
+#contact .col-md-4 p {
+	text-transform: uppercase;
+	letter-spacing: 2px;	
 }
 
 
+/* About */
+
+#about h2 {
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+#about p {
+	text-align: center;
+	font-size: 1.12;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
 
 .footer {
 	height: 80px;
